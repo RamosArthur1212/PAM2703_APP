@@ -8,9 +8,6 @@ export default function SettingsScreen(){
     return (
         <View>
             Estou na tela de configuração
-
-            <Button title= "Ir para opções" onPress={() => router.push('/options')}
-            />
         </View>
     );
 }
